@@ -13,6 +13,7 @@
   * Displays the option to select the item id and the quantity of purchase. 
   * Total price displays before tax.
   * The table will render with the changes in inventory.
+* 'Not enough product in stock' will display if the requested quantity is higher than the in stock quantity.
   
   # Instructions
   * Clone the repository
@@ -20,4 +21,12 @@
   * npm init
   * npm install
   
+View Inventory
+![Alt Text](https://github.com/erynjohn/bamazon/blob/master/assets/image1.JPG)
+Place an order
+![Alt Text](https://github.com/erynjohn/bamazon/blob/master/assets/image2.JPG)
+
+![Alt Text](https://github.com/erynjohn/bamazon/blob/master/assets/image3.JPG)
+Displays not enough product in stock
+![Alt Text](https://github.com/erynjohn/bamazon/blob/master/assets/image4.JPG)
   
