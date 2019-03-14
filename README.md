@@ -20,6 +20,7 @@
   * cd into folder
   * npm init
   * npm install
+  * run bamazon SQL (located in the assets folder) to access the data
   
 View Inventory
 ![Alt Text](https://github.com/erynjohn/bamazon/blob/master/assets/image1.JPG)
