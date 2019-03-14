@@ -2,11 +2,12 @@ var mysql = require('mysql');
 var inquirer = require('inquirer');
 var Table = require('cli-table');
 var figlet = require('figlet');
+require('dotenv').config();
  
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: process.env.PASSWORD,
     database: 'bamazon'
 });
 
@@ -28,7 +29,7 @@ connection.connect(function (err) {
         type: 'list',
         name: 'choice',
         message: 'Select from List',
-        choices: ['View inventory', 'Place an order']
+        choices: ['View Inventory', 'Place An Order']
 
     }]).then(answers => {
         JSON.stringify(answers, null, ' ');
